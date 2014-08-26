@@ -1,0 +1,38 @@
+public class normalisiert.utils.graphs.Test extends java.lang.Object
+{
+
+    public static int func(int)
+    {
+        int x, y, temp$0, temp$1;
+
+        x := @parameter0: int;
+        y = -11;
+        if x > 0 goto label0;
+
+        goto label1;
+
+     label0:
+        nop;
+        temp$0 = 1;
+        y = temp$0;
+        goto label2;
+
+     label1:
+        nop;
+        temp$1 = 2;
+        y = temp$1;
+
+     label2:
+        nop;
+        return y;
+    }
+
+    public void <init>()
+    {
+        normalisiert.utils.graphs.Test this;
+
+        this := @this: normalisiert.utils.graphs.Test;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}
